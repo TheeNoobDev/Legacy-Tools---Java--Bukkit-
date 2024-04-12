@@ -1,0 +1,9 @@
+name: LegacyTools
+main: net.chefcraft.legacytools.LegacyTools
+version: 0.1-BETA
+author: ChefRido
+website: www.chefcraft.net
+commands:
+  legacytools:
+    description: Legacy Tools Main Command!
+    aliases: [lt]

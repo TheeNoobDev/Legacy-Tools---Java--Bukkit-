@@ -1,0 +1,39 @@
+windCharge:
+  name: '&bFake Wind Charge'
+  lore: []
+  power: 1.0
+  knockbackSize: 1.0
+mace:
+  item: DIAMOND_SWORD
+  name: '&bFake Mace'
+  lore: []
+  damageMultiplier: 1.5
+  knockback: 1.2
+  knockbackSize: 4.0
+windBurstEnchantment:
+  knockbackSize: 4.0
+  windburst_1:
+    name: 'Wind Burst I'
+    power: 0.25
+  windburst_2:
+    name: 'Wind Burst II'
+    power: 0.55
+  windburst_3:
+    name: 'Wind Burst III'
+    power: 1.0
+messages:
+  perm: '&cYou don''t have permission!'
+  onlyPlayers: '&cOnly players can use this command!'
+  reload: '&aConfig reloaded!'
+  noPlayerFound: '&cSuch a player was not found!'
+  types: '&fTypes:&a %s'
+  given: '&aThe item was given to the player.'
+  incorrectInput: '&cYou entered incorrect information, Exception: %s'
+  inventoryFull: '&cInventory full!'
+  help: 
+  - '&7----- &9&lLegacy Tools &7-----'
+  - '&f-&e/lt reload &7(Reloads all config)'
+  - '&f-&e/lt give <type> <amount> &f[player] &7(Gives you or a player the item you want)'
+  - '&f-&e/lt types &7(Shows all types of items types)'
+usage:
+  give: '&cUsage: /lt give <type> <amount> [player]'
